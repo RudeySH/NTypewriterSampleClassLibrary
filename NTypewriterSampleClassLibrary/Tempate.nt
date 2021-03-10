@@ -7,7 +7,7 @@ module App {
             {{- end }}
     }
 }
-    {{- end 
+    {{- end
         filePath =  class.BareName | String.Append ".ts"
         Save output filePath
     end }}
