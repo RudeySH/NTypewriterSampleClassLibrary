@@ -49,5 +49,8 @@
       <CustomToolNamespace>d1238a83-37b0-46ec-8870-0211bf9097b5</CustomToolNamespace>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Folder\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

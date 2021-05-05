@@ -8,6 +8,6 @@ module App {
     }
 }
     {{- end
-        filePath =  class.BareName | String.Append ".ts"
+        filePath =  "Folder/" | String.Append class.BareName | String.Append ".ts"
         Save output filePath
     end }}
